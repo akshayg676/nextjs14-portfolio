@@ -17,6 +17,10 @@ export const metadata = {
     "cybersecurity",
   ],
   author: "Akshay G",
+  referrer: "origin-when-cross-origin",
+  creator: "Akshay G",
+  publisher: "Akshay G",
+  applicationName: "Akshay G's Portfolio",
   robots: "index, follow",
   og: {
     title: "Akshay G - Front-End Developer & Web Security Advocate",
