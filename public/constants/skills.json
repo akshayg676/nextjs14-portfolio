@@ -1,0 +1,120 @@
+[
+  {
+    "id": "1",
+    "name": "frontend",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Next JS",
+        "imgPath": "/icons/nextjs.svg"
+      },
+      {
+        "id": "2",
+        "label": "React JS",
+        "imgPath": "/icons/react.svg"
+      },
+      {
+        "id": "3",
+        "label": "Javascript",
+        "imgPath": "/icons/javascript.svg"
+      },
+      {
+        "id": "4",
+        "label": "Typescript",
+        "imgPath": "/icons/typescript.svg"
+      },
+      {
+        "id": "5",
+        "label": "Tailwind css",
+        "imgPath": "/icons/tailwind.svg"
+      },
+      {
+        "id": "6",
+        "label": "Material UI",
+        "imgPath": "/icons/material-ui.svg"
+      },
+      {
+        "id": "7",
+        "label": "Html 5",
+        "imgPath": "/icons/html-5.svg"
+      },
+      {
+        "id": "8",
+        "label": "CSS 3",
+        "imgPath": "/icons/css3.svg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "backend",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Node JS",
+        "imgPath": "/icons/nodejs.svg"
+      },
+      {
+        "id": "2",
+        "label": "Express JS",
+        "imgPath": "/icons/expressjs.svg"
+      },
+      {
+        "id": "3",
+        "label": "Sanity",
+        "imgPath": "/icons/sanity.svg"
+      },
+      {
+        "id": "4",
+        "label": "REST / MongoDB",
+        "imgPath": "/icons/mongodb.svg"
+      },
+      {
+        "id": "5",
+        "label": "FIREBASE",
+        "imgPath": "/icons/firebase.svg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "devtools",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Jira",
+        "imgPath": "/icons/jira.svg"
+      },
+      {
+        "id": "2",
+        "label": "Jest",
+        "imgPath": "/icons/jest.svg"
+      },
+      {
+        "id": "3",
+        "label": "Git",
+        "imgPath": "/icons/git.svg"
+      },
+      {
+        "id": "4",
+        "label": "GitHub",
+        "imgPath": "/icons/github.svg"
+      },
+      {
+        "id": "5",
+        "label": "Chrome Developer Tools",
+        "imgPath": "/icons/chrome.svg"
+      },
+      {
+        "id": "6",
+        "label": "Vercel",
+        "imgPath": "/icons/vercel.svg"
+      },
+      {
+        "id": "7",
+        "label": "Netlify",
+        "imgPath": "/icons/netlify-icon.svg"
+      }
+    ]
+  }
+]

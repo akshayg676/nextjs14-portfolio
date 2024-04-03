@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body {
+  width: 96%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sk-Modernist", sans-serif;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Sk-Modernist";
+  src: url("../public/font/Sk-Modernist-Mono.otf") format("truetype");
+}
+@font-face {
+  font-family: "Bigilla";
+  src: url("../public/font/Bigilla-Bold.otf") format("truetype");
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  cursor: none;
+}
+body {
+  color: white;
+  background: #0a0a0a;
+}
+html:hover #cursor {
+  display: flex;
+}
+
+/* -------------------------------------- Scrollbar -------------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#000000),
+    to(#5f7080)
+  );
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+    inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background: #ffdb01;
+}
+
+.whitespace {
+  width: 100%;
+  height: 80px;
+}
+a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+a:hover {
+  opacity: 1;
+}
+li {
+  list-style: none;
+}
+
+/* -------------------------------------- section-header -------------------------------------- */
+.sectionHeader .sectionHeaderContainer {
+  display: flex;
+  padding: 12px 0;
+  font-size: 20px;
+  justify-content: space-between;
+}

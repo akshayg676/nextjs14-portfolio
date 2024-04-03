@@ -1,0 +1,141 @@
+/* -------------------------------------- Header -------------------------------------- */
+.header {
+  margin: 80px;
+  position: relative;
+  z-index: 2 !important;
+}
+.header .headerContainer h1 span {
+  font-family: "Bigilla";
+  font-size: 12rem;
+  display: inline-block;
+}
+@keyframes rubberbandAnimate {
+  25% {
+    transform: scale(0.8, 1.3);
+  }
+  50% {
+    transform: scale(1.1, 0.8);
+  }
+  75% {
+    transform: scale(0.7, 1.2);
+  }
+}
+.header .headerContainer h1 span:hover {
+  color: #ffdb01;
+  animation: rubberbandAnimate 0.6s;
+}
+
+@media (max-width: 1088px) {
+  .header .headerContainer h1 span {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 915px) {
+  .header .headerContainer h1 span {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 749px) {
+  .header .headerContainer h1 span {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 583px) {
+  .header {
+    margin: 40px;
+  }
+  .header .headerContainer h1 span {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 543px) {
+  .header .headerContainer h1 span {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 454px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 span {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 387px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 span {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 span {
+    font-size: 3.5rem;
+  }
+}
+
+/* -------------------------------------- hero-image -------------------------------------- */
+.heroImage {
+  width: 100%;
+  margin-top: -300px;
+}
+.heroImage::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.heroImage .heroImageContainer {
+  width: 40%;
+  float: right;
+}
+@keyframes floating {
+  from {
+    transform: translateY(-0.5em);
+  }
+
+  to {
+    transform: translateY(+0.5em);
+  }
+}
+.heroImage .heroImageContainer img {
+  width: 100%;
+  /* transform: translateY(-0.25em);
+  transition: 0.3s; */
+  animation-duration: 1.8s;
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media (max-width: 900px) {
+  @keyframes floating {
+    from {
+      transform: translateY(-0.25em);
+    }
+
+    to {
+      transform: translateY(+0.25em);
+    }
+  }
+  .heroImage {
+    margin-top: 40px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .heroImage .heroImageContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  .heroImage {
+    display: flex;
+    justify-content: center;
+  }
+  .heroImage .heroImageContainer {
+    width: 220px;
+  }
+}

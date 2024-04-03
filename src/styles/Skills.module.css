@@ -1,0 +1,56 @@
+/* -------------------------------------- Skill -------------------------------------- */
+.skillContainer {
+  display: grid;
+  grid-gap: 3rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin-inline: auto;
+}
+.skillIcon {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (min-width: 718px) {
+  .skillContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 718px) {
+  .skillContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skillContainer .set {
+  padding: 24px;
+  border-radius: 16px;
+}
+.set header {
+  font-family: "Bigilla";
+}
+.set label {
+  letter-spacing: 3px;
+  font-family: "Bigilla";
+}
+
+.set header {
+  padding-block: 1rem;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.set .list {
+  padding-block: 10px;
+  /* display: grid;
+  grid-template-columns: 1fr 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.set .list i {
+  font-size: 28px;
+}

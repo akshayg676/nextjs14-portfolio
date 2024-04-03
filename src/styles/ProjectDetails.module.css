@@ -1,0 +1,82 @@
+.projectConatiner {
+  padding: 1em 0.5em;
+  line-height: 35px;
+}
+
+.headingContainter {
+  padding: 3em 0;
+}
+.projectHeading {
+  display: flex;
+  line-height: 100%;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  font-family: "Bigilla";
+  border-bottom: 5px solid #ffdb01;
+  font-size: clamp(4.7rem, calc(7rem + -1.35vw), 3.3rem);
+}
+
+.projectGif {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  object-fit: cover;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 0 4em 0;
+}
+
+.projectButton {
+  cursor: pointer;
+  opacity: 1;
+  padding: 0 10px;
+  color: #0a0a0a;
+  background-color: #ffdb01;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 2px solid #ffdb01;
+  transition: 0.3s;
+}
+
+.projectButton:hover {
+  color: #ffdb01;
+  background-color: #000;
+  transform: translateY(-0.25em);
+}
+
+.projectSpan {
+  font-size: 1.3em;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ffdb01;
+}
+
+.projectPad {
+  padding: 1em 0;
+  list-style: none;
+  font-size: 1em;
+}
+.projectPad li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+@media screen and (max-width: 383px) {
+  .projectSpan {
+    font-size: 1.1em;
+  }
+  .projectButton {
+    font-size: 1em;
+    padding: 0 8px;
+  }
+}

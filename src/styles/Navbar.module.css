@@ -1,0 +1,39 @@
+/* -------------------------------------- Navbar -------------------------------------- */
+.navbar .navbarContainer {
+  display: flex;
+  padding: 16px 0;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarContainer nav {
+  display: flex;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+}
+.navbarContainer nav li {
+  margin: 0 15px;
+  font-size: 20px;
+}
+.footer {
+  padding: 2em 0;
+}
+@media screen and (max-width: 345px) {
+  .navbarContainer nav li {
+    font-size: 18.5px;
+  }
+}
+@media (max-width: 600px) {
+  .navbarContainer {
+    flex-direction: column;
+  }
+  .navbarContainer nav li {
+    padding: 10px 0;
+  }
+  .navbarContainer .siteLogo,
+  .siteCopyright {
+    margin-bottom: 15px;
+  }
+}

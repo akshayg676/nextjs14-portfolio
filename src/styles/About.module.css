@@ -1,0 +1,50 @@
+/* -------------------------------------- about -------------------------------------- */
+.about {
+  width: 100%;
+}
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about .aboutContainer {
+  width: 70%;
+  float: right;
+}
+.about .aboutContainer p {
+  margin: 40px 0;
+  font-size: 36px;
+}
+
+.resumeBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  color: #ffdb01;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #ffdb01;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resumeBtn:hover {
+  color: #0a0a0a;
+  background-color: #ffdb01;
+  transform: translateY(-0.25em);
+}
+
+@media (max-width: 900px) {
+  .about .aboutContainer {
+    width: 100%;
+  }
+  .about .aboutContainer p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .resumeBtn {
+    font-size: 1.2rem;
+  }
+}

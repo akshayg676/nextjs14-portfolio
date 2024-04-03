@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "title": "Aura Uni",
+    "slug": "aurauni",
+    "viewUrl": "https://aurauni.akshayg.tech/",
+    "codeUrl": "https://github.com/akshayg676/nft-drop-nextjs-",
+    "description": "This is an NFT Drop Dapp. It is a WEB3 decentralized app, which uses smart contracts that is build on thirdweb which allows users to mint their NFT's. All the minted NFT's will be visible in the OpenSea, world's largest NFT market place. The content of the website is managed using Sanity CMS",
+    "tools": [
+      "Thirdweb",
+      "Next JS",
+      "React JS",
+      "Sanity CMS",
+      "Tailwind CSS",
+      "MetaMask",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Pellucid",
+    "slug": "pellucid",
+    "viewUrl": "https://blog.akshayg.tech/",
+    "codeUrl": "https://github.com/akshayg676/nextjs-blog",
+    "description": "With featured and recent posts, categories, full markdown articles, author information, comments, and much more, this is a fully responsive Headless CMS (Content Management System) GraphQL Blog Application.",
+    "tools": [
+      "Next JS",
+      "React JS",
+      "Tailwind CSS",
+      "GraphQL",
+      "GraphCMS",
+      "Javascript"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Choc-O-Holics",
+    "slug": "chocoholics",
+    "viewUrl": "https://chocoholics.akshayg.tech/",
+    "codeUrl": "https://github.com/akshayg676/nextjs-sanity-ecommerce",
+    "description": "This is an e-commerce application which includes modern design and animations, the ability to add and edit products on the go using Sanity CMS, advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe to cover real payments.",
+    "tools": ["Next JS", "React JS", "Sanity CMS", "Stripe", "Javascript"]
+  },
+
+  {
+    "id": "4",
+    "title": "Binary Bee",
+    "slug": "binarybee",
+    "viewUrl": "https://binarybee.akshayg.tech/",
+    "codeUrl": "https://github.com/akshayg676/speakup",
+    "description": "Binary Bee is a social media site, and its primary purpose is to connect people and allow people to share their thoughts with a big audience. Binary Bee is what’s happening and what people are talking about right now.",
+    "tools": [
+      "Next JS",
+      "NextAuth",
+      "React JS",
+      "Sanity CMS",
+      "Tailwind CSS",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Hot Spot",
+    "slug": "hotspot",
+    "viewUrl": "https://hotspot.akshayg.tech/",
+    "codeUrl": "https://github.com/akshayg676/hotspot",
+    "description": "Hot Spot is an environment that’s open to everyone. Anyone can write here. Thought-leaders, journalists, experts, and individuals with unique perspectives share their thinking here. You’ll find pieces by independent writers from around the globe.",
+    "tools": ["Next JS", "React JS", "Sanity CMS", "Tailwind CSS", "TypeScript"]
+  }
+]

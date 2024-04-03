@@ -1,0 +1,76 @@
+/* -------------------------------------- contact -------------------------------------- */
+
+/* .contact {
+} */
+.contact form {
+  padding: 3em 0.5em;
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact form textarea,
+.contact form .inputBox input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.4rem;
+  color: var(--text-color-1);
+  margin: 0.7rem 0;
+  background: var(--bg-color-1);
+  box-shadow: var(--box-shadow);
+  text-transform: none;
+  border-radius: 0.5rem;
+}
+
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.contact form .inputBox input {
+  width: 49%;
+}
+
+.contactBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.7rem;
+  color: #ffdb01;
+  background-color: #000;
+
+  border-radius: 0.5rem;
+  border: 2px solid #ffdb01;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactBtn:hover {
+  color: #0a0a0a;
+  background-color: #ffdb01;
+
+  transform: translateY(-0.25em);
+}
+@media screen and (max-width: 718px) {
+  .contact form .inputBox {
+    flex-direction: column;
+  }
+  .contact form .inputBox input {
+    width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .social .social-container a {
+    padding: 0.25rem;
+  }
+  .contactBtn {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
