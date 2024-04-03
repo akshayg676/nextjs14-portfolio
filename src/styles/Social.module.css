@@ -14,7 +14,7 @@
 .social .socialContainer a {
   cursor: pointer;
   text-decoration: none;
-  font-family: "Bigilla";
+  /* font-family: "Bigilla"; */
   font-size: 64px;
 }
 

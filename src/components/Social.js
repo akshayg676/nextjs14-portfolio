@@ -1,6 +1,6 @@
-import React from "react";
 import { Section } from "./index";
 import styles from "../styles/Social.module.css";
+import { Bigilla } from "@/app/layout";
 
 const Social = () => {
   return (
@@ -10,6 +10,7 @@ const Social = () => {
         <div className={styles.socialContainer}>
           <div className={styles.socialId}>
             <a
+              className={Bigilla.className}
               href="https://www.linkedin.com/in/akshay-g-700183181/"
               target="_blank"
               rel="noreferrer"
@@ -19,6 +20,7 @@ const Social = () => {
           </div>
           <div className={styles.socialId}>
             <a
+              className={Bigilla.className}
               href="https://github.com/akshayg676"
               target="_blank"
               rel="noreferrer"
@@ -28,6 +30,7 @@ const Social = () => {
           </div>
           <div className={styles.socialId}>
             <a
+              className={Bigilla.className}
               href="https://codepen.io/akshay-g"
               target="_blank"
               rel="noreferrer"
@@ -36,7 +39,12 @@ const Social = () => {
             </a>
           </div>
           <div className={styles.socialId}>
-            <a href="https://t.me/ChingChong5" target="_blank" rel="noreferrer">
+            <a
+              className={Bigilla.className}
+              href="https://t.me/ChingChong5"
+              target="_blank"
+              rel="noreferrer"
+            >
               Telegram
             </a>
           </div>

@@ -12,7 +12,7 @@
   align-items: center;
   margin: 0 auto;
   width: fit-content;
-  font-family: "Bigilla";
+  /* font-family: "Bigilla"; */
   border-bottom: 5px solid #ffdb01;
   font-size: clamp(4.7rem, calc(7rem + -1.35vw), 3.3rem);
 }

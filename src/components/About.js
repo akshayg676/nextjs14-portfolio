@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Section } from "./index";
 import styles from "../styles/About.module.css";
 

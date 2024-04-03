@@ -1,12 +1,12 @@
-import React from "react";
 import styles from "../styles/HeroSection.module.css";
+import { Bigilla } from "@/app/layout";
 const HeroSection = () => {
   return (
     <div>
       {/* -------------------------------------- header -------------------------------------- */}
       <div className={styles.header}>
         <div className={styles.headerContainer}>
-          <h1>
+          <h1 className={Bigilla.className}>
             <span>A</span>
             <span>k</span>
             <span>s</span>

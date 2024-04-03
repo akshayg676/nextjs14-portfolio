@@ -1,4 +1,3 @@
-import React from "react";
 import { Section } from "./index";
 import styles from "../styles/Contact.module.css";
 

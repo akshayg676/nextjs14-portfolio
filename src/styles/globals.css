@@ -14,17 +14,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sk-Modernist", sans-serif;
   color: #fff;
-}
-
-@font-face {
-  font-family: "Sk-Modernist";
-  src: url("../public/font/Sk-Modernist-Mono.otf") format("truetype");
-}
-@font-face {
-  font-family: "Bigilla";
-  src: url("../public/font/Bigilla-Bold.otf") format("truetype");
 }
 
 html {

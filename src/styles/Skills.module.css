@@ -27,11 +27,11 @@
   border-radius: 16px;
 }
 .set header {
-  font-family: "Bigilla";
+  /* font-family: "Bigilla"; */
 }
 .set label {
   letter-spacing: 3px;
-  font-family: "Bigilla";
+  /* font-family: "Bigilla"; */
 }
 
 .set header {
