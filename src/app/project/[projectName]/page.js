@@ -1,8 +1,12 @@
-import React from "react";
-import projectData from "../../public/data/projects.json";
-import styles from "../../styles/ProjectDetails.module.css";
+import projectData from "../../../constants/projects.json";
+import styles from "../../../styles/ProjectDetails.module.css";
 import { Bigilla } from "@/app/layout";
-const ProjectDetails = ({ data }) => {
+import { redirect } from "next/navigation";
+const ProjectDetails = ({ params }) => {
+  const data = projectData.find((val) => params.projectName === val.slug);
+  if (data === undefined) {
+    redirect("/");
+  }
   return (
     <div className={styles.projectConatiner}>
       <div className={styles.headingContainter}>
@@ -10,6 +14,12 @@ const ProjectDetails = ({ data }) => {
           {data.title.toUpperCase()}
         </h1>
       </div>
+      <video autoPlay loop muted playsInline className={styles.projectVideo}>
+        <source
+          src={`/images/projectDetails/${data.slug}.mp4`}
+          type="video/mp4"
+        />
+      </video>
       <div className={styles.button}>
         <a
           className={styles.projectButton}
@@ -42,38 +52,8 @@ const ProjectDetails = ({ data }) => {
           ))}
         </ul>
       </h3>
-      <img
-        className={styles.projectGif}
-        src={`/images/${data.slug}.gif`}
-        alt=""
-      />
     </div>
   );
 };
 
 export default ProjectDetails;
-
-export function getStaticPaths() {
-  const paths = projectData.map((val) => {
-    return {
-      params: {
-        slug: val.slug,
-      },
-    };
-  });
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const data = projectData.find((val) => val.slug === params.slug);
-
-  return {
-    props: {
-      data,
-    }, // will be passed to the page component as props
-  };
-}

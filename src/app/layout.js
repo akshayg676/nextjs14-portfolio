@@ -1,5 +1,7 @@
-import "./globals.css";
+import { CustomCursor, Footer, Navbar } from "@/components";
+import "../styles/globals.css";
 import localFont from "next/font/local";
+import { AOSInit } from "@/utils/aos";
 
 export const Bigilla = localFont({
   src: "../../public/font/Bigilla-Bold.otf",
@@ -55,7 +57,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Modernist.className}>{children}</body>
+      <body className={Modernist.className}>
+        <AOSInit />
+        <CustomCursor />
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

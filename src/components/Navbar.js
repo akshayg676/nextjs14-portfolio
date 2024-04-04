@@ -1,18 +1,11 @@
+"use client";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const router = useRouter();
-  const handleClick = (e) => {
-    e.preventDefault();
-    const target = e.target.getAttribute("href");
-    const location = document.querySelector(target).offsetTop;
-    window.scrollTo({
-      left: 0,
-      top: location,
-    });
-  };
+  const pathname = usePathname();
+
   return (
     <div>
       <div className={styles.navbar}>
@@ -22,32 +15,20 @@ const Navbar = () => {
               <img className={styles.logo} src="/images/logo.png" alt="" />
             </Link>
           </div>
-          {router.asPath === "/" ? (
+          {pathname === "/" ? (
             <nav>
               <li>
-                <a
-                  onClick={handleClick}
-                  href="#project"
-                  className={styles.siteProjects}
-                >
+                <a href="#project" className={styles.siteProjects}>
                   Projects
                 </a>
               </li>
               <li>
-                <a
-                  onClick={handleClick}
-                  href="#contact"
-                  className={styles.contact}
-                >
+                <a href="#contact" className={styles.contact}>
                   Contact
                 </a>
               </li>
               <li>
-                <a
-                  onClick={handleClick}
-                  href="#skills"
-                  className={styles.siteAbout}
-                >
+                <a href="#skills" className={styles.siteAbout}>
                   Skills
                 </a>
               </li>

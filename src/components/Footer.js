@@ -8,9 +8,9 @@ const Footer = () => {
         <div className={styles.navbar}>
           <div className={styles.navbarContainer}>
             <div className={styles.siteCopyright}>
-              © 2022 | All rights reserved
+              © 2024 | All rights reserved
             </div>
-            <div className={styles.siteCoordinate}>9.049659,76.852799</div>
+            <div className={styles.siteCoordinate}>37.401447,-116.867891</div>
           </div>
         </div>
       </div>

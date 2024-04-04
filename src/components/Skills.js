@@ -1,7 +1,7 @@
-import { Section } from "./index";
-import skillsList from "../public/data/skills.json";
+import skillsList from "../constants/skills.json";
 import styles from "../styles/Skills.module.css";
 import { Bigilla } from "@/app/layout";
+import Section from "./Section";
 
 const Skills = () => {
   const feskills = skillsList.find((label) => label.name === "frontend");
