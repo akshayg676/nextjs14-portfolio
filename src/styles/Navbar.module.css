@@ -6,14 +6,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.navbarContainer nav {
+.navbarContainer ul {
   display: flex;
 }
 .logo {
   height: 80px;
   width: 80px;
 }
-.navbarContainer nav li {
+.navbarContainer ul li {
   margin: 0 15px;
   font-size: 20px;
 }
@@ -21,7 +21,7 @@
   padding: 2em 0;
 }
 @media screen and (max-width: 345px) {
-  .navbarContainer nav li {
+  .navbarContainer ul li {
     font-size: 18.5px;
   }
 }
@@ -29,7 +29,7 @@
   .navbarContainer {
     flex-direction: column;
   }
-  .navbarContainer nav li {
+  .navbarContainer ul li {
     padding: 10px 0;
   }
   .navbarContainer .siteLogo,

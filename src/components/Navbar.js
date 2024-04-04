@@ -16,7 +16,7 @@ const Navbar = () => {
             </Link>
           </div>
           {pathname === "/" ? (
-            <nav>
+            <ul>
               <li>
                 <a
                   href="#project"
@@ -50,15 +50,15 @@ const Navbar = () => {
                   Skills
                 </a>
               </li>
-            </nav>
+            </ul>
           ) : (
-            <nav>
+            <ul>
               <li>
                 <Link href="/" className={styles.siteAbout}>
                   Home
                 </Link>
               </li>
-            </nav>
+            </ul>
           )}
         </div>
       </div>
