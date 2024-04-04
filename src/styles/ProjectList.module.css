@@ -11,7 +11,6 @@
   position: relative;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
-  /* font-family: "Bigilla"; */
   text-transform: uppercase;
 }
 
@@ -107,7 +106,6 @@
 }
 
 .marquee span {
-  /* font-family: "Bigilla" !important; */
   text-transform: uppercase;
 }
 

@@ -1,5 +1,6 @@
 import { Section } from "./index";
 import styles from "../styles/Contact.module.css";
+import { Modernist } from "@/app/layout";
 
 const Contact = () => {
   return (
@@ -62,7 +63,7 @@ const Contact = () => {
           <input
             type="submit"
             value="Send message"
-            className={styles.contactBtn}
+            className={`${styles.contactBtn} ${Modernist.className}`}
           />
         </form>
       </section>

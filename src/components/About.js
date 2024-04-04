@@ -1,5 +1,6 @@
 import { Section } from "./index";
 import styles from "../styles/About.module.css";
+import { Modernist } from "@/app/layout";
 
 const About = () => {
   return (
@@ -24,7 +25,9 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className={styles.resumeBtn}>View Resume</button>
+            <button className={`${styles.resumeBtn} ${Modernist.className}`}>
+              View Resume
+            </button>
           </a>
         </div>
       </section>

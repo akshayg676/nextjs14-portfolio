@@ -7,7 +7,7 @@ export const Bigilla = localFont({
   src: "../../public/font/Bigilla-Bold.otf",
 });
 
-const Modernist = localFont({
+export const Modernist = localFont({
   src: "../../public/font/Sk-Modernist-Mono.otf",
 });
 
