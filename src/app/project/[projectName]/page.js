@@ -25,7 +25,8 @@ const ProjectDetails = ({ params }) => {
           className={styles.projectButton}
           href={data.viewUrl}
           target="_blank"
-          rel="noreferrer"
+          referrerpolicy="no-referrer"
+          rel="noopener noreferrer"
         >
           View Project
         </a>
@@ -33,7 +34,8 @@ const ProjectDetails = ({ params }) => {
           className={styles.projectButton}
           href={data.codeUrl}
           target="_blank"
-          rel="noreferrer"
+          referrerpolicy="no-referrer"
+          rel="noopener noreferrer"
         >
           View Code
         </a>

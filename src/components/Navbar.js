@@ -11,24 +11,42 @@ const Navbar = () => {
       <div className={styles.navbar}>
         <div className={styles.navbarContainer}>
           <div className={styles.siteLogo}>
-            <Link href="/">
-              <img className={styles.logo} src="/images/logo.png" alt="" />
+            <Link href="/" aria-label="Home">
+              <img className={styles.logo} src="/images/logo.webp" alt="logo" />
             </Link>
           </div>
           {pathname === "/" ? (
             <nav>
               <li>
-                <a href="#project" className={styles.siteProjects}>
+                <a
+                  href="#project"
+                  className={styles.siteProjects}
+                  target="_self"
+                  referrerPolicy="no-referrer"
+                  rel="noopener noreferrer"
+                >
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" className={styles.contact}>
+                <a
+                  href="#contact"
+                  className={styles.contact}
+                  target="_self"
+                  referrerPolicy="no-referrer"
+                  rel="noopener noreferrer"
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#skills" className={styles.siteAbout}>
+                <a
+                  href="#skills"
+                  className={styles.siteAbout}
+                  target="_self"
+                  referrerPolicy="no-referrer"
+                  rel="noopener noreferrer"
+                >
                   Skills
                 </a>
               </li>

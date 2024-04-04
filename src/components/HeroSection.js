@@ -47,7 +47,7 @@ const HeroSection = () => {
       {/* -------------------------------------- hero-image -------------------------------------- */}
       <div className={styles.heroImage}>
         <div className={styles.heroImageContainer}>
-          <img src="/images/stripy-relax.png" alt="" />
+          <img src="/images/stripy-relax.webp" alt="hero-img" />
         </div>
       </div>
     </div>

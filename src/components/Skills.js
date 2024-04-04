@@ -17,7 +17,11 @@ const Skills = () => {
             {feskills.fields.map((val) => (
               <div key={val.id} className={styles.list}>
                 <label className={Bigilla.className}>{val.label}</label>
-                <img src={val.imgPath} className={styles.skillIcon} />
+                <img
+                  src={val.imgPath}
+                  className={styles.skillIcon}
+                  alt="fe-icon"
+                />
               </div>
             ))}
           </div>
@@ -26,7 +30,11 @@ const Skills = () => {
             {beskills.fields.map((val) => (
               <div key={val.id} className={styles.list}>
                 <label className={Bigilla.className}>{val.label}</label>
-                <img src={val.imgPath} className={styles.skillIcon} />
+                <img
+                  src={val.imgPath}
+                  className={styles.skillIcon}
+                  alt="ws-icon"
+                />
               </div>
             ))}
           </div>
@@ -35,7 +43,11 @@ const Skills = () => {
             {devskills.fields.map((val) => (
               <div key={val.id} className={styles.list}>
                 <label className={Bigilla.className}>{val.label}</label>
-                <img src={val.imgPath} className={styles.skillIcon} />
+                <img
+                  src={val.imgPath}
+                  className={styles.skillIcon}
+                  alt="dv-icon"
+                />
               </div>
             ))}
           </div>
