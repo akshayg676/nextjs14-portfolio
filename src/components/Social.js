@@ -13,7 +13,7 @@ const Social = () => {
               className={Bigilla.className}
               href="https://www.linkedin.com/in/akshay-g-700183181/"
               target="_blank"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
               rel="noopener noreferrer"
             >
               LinkedIn
@@ -24,7 +24,7 @@ const Social = () => {
               className={Bigilla.className}
               href="https://github.com/akshayg676"
               target="_blank"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
               rel="noopener noreferrer"
             >
               Github
@@ -35,7 +35,7 @@ const Social = () => {
               className={Bigilla.className}
               href="https://codepen.io/akshay-g"
               target="_blank"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
               rel="noopener noreferrer"
             >
               Codepen
@@ -46,7 +46,7 @@ const Social = () => {
               className={Bigilla.className}
               href="https://t.me/ChingChong5"
               target="_blank"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
               rel="noopener noreferrer"
             >
               Telegram

@@ -23,7 +23,7 @@ const About = () => {
           <a
             href="https://drive.google.com/file/d/1QhINfPBq4tkx1BwBI-IJm9KQARF_wkWb/view?usp=sharing"
             target="_blank"
-            referrerpolicy="no-referrer"
+            referrerPolicy="no-referrer"
             rel="noopener noreferrer"
           >
             <button className={`${styles.resumeBtn} ${Modernist.className}`}>
