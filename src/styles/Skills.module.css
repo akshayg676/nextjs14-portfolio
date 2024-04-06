@@ -28,7 +28,8 @@
 }
 
 .set label {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 17px;
 }
 
 .set header {
