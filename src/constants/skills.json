@@ -25,44 +25,39 @@
       },
       {
         "id": "5",
+        "label": "Redux",
+        "imgPath": "/icons/frontend/redux.svg"
+      },
+      {
+        "id": "6",
         "label": "React Query",
         "imgPath": "/icons/frontend/react-query.svg"
       },
       {
-        "id": "6",
+        "id": "7",
         "label": "Tailwind css",
         "imgPath": "/icons/frontend/tailwind.svg"
       },
       {
-        "id": "7",
+        "id": "8",
         "label": "Material UI",
         "imgPath": "/icons/frontend/material-ui.svg"
       },
       {
-        "id": "8",
+        "id": "9",
         "label": "Ant Design",
         "imgPath": "/icons/frontend/antdesign.svg"
       },
 
       {
-        "id": "9",
+        "id": "10",
         "label": "Websocket",
         "imgPath": "/icons/frontend/websocket.svg"
       },
       {
-        "id": "10",
+        "id": "11",
         "label": "Jitsi Meet",
         "imgPath": "/icons/frontend/jitsimeet.svg"
-      },
-      {
-        "id": "11",
-        "label": "Html 5",
-        "imgPath": "/icons/frontend/html-5.svg"
-      },
-      {
-        "id": "12",
-        "label": "CSS 3",
-        "imgPath": "/icons/frontend/css3.svg"
       }
     ]
   },
@@ -129,38 +124,43 @@
     "fields": [
       {
         "id": "1",
+        "label": "Tesing Library",
+        "imgPath": "/icons/devtools/rtk.svg"
+      },
+      {
+        "id": "2",
         "label": "Jest",
         "imgPath": "/icons/devtools/jest.svg"
       },
       {
-        "id": "2",
+        "id": "3",
         "label": "Firebase",
         "imgPath": "/icons/devtools/firebase.svg"
       },
 
       {
-        "id": "3",
+        "id": "4",
         "label": "Sanity",
         "imgPath": "/icons/devtools/sanity.svg"
       },
 
       {
-        "id": "4",
+        "id": "5",
         "label": "Vercel",
         "imgPath": "/icons/devtools/vercel.svg"
       },
       {
-        "id": "5",
+        "id": "6",
         "label": "Netlify",
         "imgPath": "/icons/devtools/netlify.svg"
       },
       {
-        "id": "6",
+        "id": "7",
         "label": "Git",
         "imgPath": "/icons/devtools/git.svg"
       },
       {
-        "id": "7",
+        "id": "8",
         "label": "GitHub",
         "imgPath": "/icons/devtools/github.svg"
       }
