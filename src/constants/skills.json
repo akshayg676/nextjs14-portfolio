@@ -5,13 +5,13 @@
     "fields": [
       {
         "id": "1",
-        "label": "Next JS",
-        "imgPath": "/icons/frontend/nextjs.svg"
+        "label": "React JS",
+        "imgPath": "/icons/frontend/react.svg"
       },
       {
         "id": "2",
-        "label": "React JS",
-        "imgPath": "/icons/frontend/react.svg"
+        "label": "Next JS",
+        "imgPath": "/icons/frontend/nextjs.svg"
       },
       {
         "id": "3",
