@@ -10,11 +10,6 @@ export const AOSInit = () => {
       easing: "ease-out-quad",
       duration: 1000,
     });
-
-    //  AOS.init({
-    //    duration: 3000,
-    //  });
-    //  AOS.refresh();
   }, []);
 
   return null;
