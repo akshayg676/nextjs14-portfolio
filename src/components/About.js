@@ -21,7 +21,7 @@ const About = () => {
             amazing web experiences that users can trust and enjoy!
           </p>
           <a
-            href="https://drive.google.com/file/d/1QhINfPBq4tkx1BwBI-IJm9KQARF_wkWb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dAZBdByNMCeEpxUIH_Z8Kjp5YE9NcXHb/view?usp=sharing"
             target="_blank"
             referrerPolicy="no-referrer"
             rel="noopener noreferrer"
