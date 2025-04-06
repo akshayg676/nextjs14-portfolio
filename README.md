@@ -59,7 +59,7 @@ Welcome to my portfolio! I am a proficient React JS Frontend Developer with a pa
 
 ## Portfolio Links
 
-- Portfolio: [https://www.akshayg.tech/](https://www.akshayg.tech/)
+- Portfolio: [https://www.akshayg.dev/](https://www.akshayg.dev/)
 - LinkedIn: [https://www.linkedin.com/in/akshay-g-/](https://www.linkedin.com/in/akshay-g-/)
 - GitHub: [https://github.com/akshayg676](https://github.com/akshayg676)
 

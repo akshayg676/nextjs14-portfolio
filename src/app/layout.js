@@ -35,7 +35,7 @@ export const metadata = {
     description:
       "Welcome to the portfolio of Akshay G, a Front-End Developer and Web Security Advocate. Explore my projects and expertise in web development and cybersecurity.",
     type: "website",
-    url: "https://www.akshayg.tech/",
+    url: "https://www.akshayg.dev/",
     // image: "",
     locale: "en_US",
   },

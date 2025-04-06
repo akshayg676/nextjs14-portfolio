@@ -34,7 +34,7 @@ const Contact = () => {
             <input
               type="hidden"
               name="_next"
-              defaultValue="https://www.akshayg.tech/#contact"
+              defaultValue="https://www.akshayg.dev/#contact"
             />
           </div>
           <div className={styles.inputBox}>
